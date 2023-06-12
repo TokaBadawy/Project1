@@ -1,0 +1,631 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*general class*/
+.mg-y{
+    margin: 350px 0 0 0;
+}
+.mg{
+    margin-top: 10px ;
+}
+.rl{
+    margin: 0 1%;
+}
+.rl-title{
+    margin: 0 6%;
+
+}
+.mg-products{
+    margin: 0 2%;
+
+}
+.mb-products{
+    margin-bottom: 5px;
+}
+.mg-yy{
+    margin: 120px 0 0 0;
+}
+.mg-footer{
+    margin: 300px 0 0 0;
+}
+.mg-footer-item{
+    margin-bottom: 15%;
+}
+
+/*end*/
+
+/*nav bar*/
+.nav-bar{
+ width: 100%;
+ height: 100px;
+ background-color: #FFFFFF;
+ position: relative;
+ 
+}
+.list{
+    height: 75px;
+    margin-top: 0;
+    width: 50%;
+    position: absolute;
+    top:0;
+    left: 20%;
+    text-align: center;
+
+
+}
+.list li{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    margin: 15px 10px 0 0;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+
+}
+.list li:hover{
+    color: #384AEB;
+}
+
+.nav-bar img{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.bttn{
+    float: right;
+    margin-top: 30px;
+    margin-right: 120px;
+    padding: 10px;
+    width: 150px;
+    border: 0;
+    outline: 0;
+    border: 1px solid rgb(165, 163, 163);
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.bttn:hover{
+    border-color:  #384AEB;
+    color: black;}
+.icon{
+    float: right;
+    margin-top: 30px;
+    margin-right: 12px;
+    padding: 8px;
+
+}
+/* end nav bar*/
+ /*header*/
+header{
+    width: 100%;
+    height: 700px;
+    background-color: #F1F6F7;
+    position: relative;
+}
+.image{
+    width: 25%;
+    background-color: #384AEB;
+    float: left;
+    height: 600px;
+}
+.header-content{
+    width: 40%;
+    float: right;
+    height: 600px;
+    padding-top: 150px;
+    margin-right: 380px;
+    
+}
+.photo{
+    width: 100%;
+    padding: 91px 0 0 50px;
+    
+}
+.clr{
+    clear: both;
+}
+
+.b{
+    padding: 15px;
+    border-radius: 25px;
+    border-width: 1px;
+    color: white;
+    background-color: #384AEB;
+    cursor: pointer;
+    
+}
+.b:hover{
+    border-color:  #384AEB;
+    border-width: 1px;
+    background-color: white;
+    color: black;
+}
+.header-content h4{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    color: #555555;
+    font-weight: 400;
+     line-height: 1.3;
+}
+.header-content h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.clr{
+    clear: both;
+}
+/*end header*/
+
+/*slides*/
+.slides{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 700px;
+}
+.slide{
+    width: 32.6%;
+    float: left;
+    position: relative;
+}
+.slides img{
+    width: 100%;
+
+}
+
+.small{
+    background-color:#384AEB;
+    width: 60%;
+    height: 0;
+    position: absolute;
+    bottom: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: width 0.5;
+    text-align: center;
+    transition: height 0.5s;
+
+    
+    
+}
+.slide:hover .small{
+    opacity: 1;
+    visibility: visible;
+    height: 120px
+    
+    
+
+}
+.small h3,
+.small h4{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
+    line-height: 1.1;
+
+    
+    
+
+}
+.effect{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    right: 0;
+    
+
+}
+.slide:hover .effect{
+    height: 100%;
+    background-color: rgb(249, 249, 255,0.7);
+    
+
+}
+
+/*slides*/
+
+/*products*/
+.products{
+    width: 100%;
+    height: 1020px;
+    
+    
+    
+}
+.title{
+    position: relative;
+    padding: 10px;
+}
+.line{
+    height: 1px;
+    width: 8%;
+    background-color: #384AEB;
+    padding-top: 1px;
+    position: absolute;
+    top: 95px;
+    bottom: 0;
+    left: 125px;
+    
+}
+.title p{
+    color: hsl(240, 2%, 65%);
+    position: absolute;
+    top: 1px;
+    bottom: 0;
+
+
+}
+.product{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+  
+}
+.product img{
+    width: 100%;
+    
+}
+.product-item{
+    width: 23%;
+    float: right;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+
+}
+.product-item h3,.product-item h4{
+    color: #A37777;
+}
+.icon-hover{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: height 0.5s, visibility 0.5s, opacity 0.5s ;
+
+}
+.icon-hover i{
+    margin-top: 25px;
+    margin-right: 2px;
+    padding: 10px;
+    color: #F1F6F7;
+    background-color: #8894FF;
+   
+}
+.product-item:hover .icon-hover{
+    opacity: 1;
+    visibility: visible;
+    height: 100px;
+    background-color: rgb(249, 249, 255,0.7);
+}
+.icon-hover i:hover{
+    background-color: #384AEB;
+    cursor: pointer;
+}
+.product-item:hover h3{
+    color: #384AEB;
+}
+.products h1{
+    text-transform: capitalize;
+    font-family: "Oswald",sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+/*end products*/
+
+/*slider*/
+.slider{
+    background-image: url(../images/slider/xparallax-bg.png.pagespeed.ic.2seooiZu4q.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px; 
+    position: relative; 
+    margin: 100px 0 0 0;
+    
+}
+.slider-content{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+}
+.slider-content h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Oswald, sans-serif;
+    color: rgb(34, 34, 34);
+}
+.slider-content h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+.slider-content p{
+    color: rgb(85, 85, 85);
+
+}
+.slider-content button{
+    padding: 15px;
+    width: 160px;
+    border-width: 1px;
+    border-radius: 25px;
+    color: #eee;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #384AEB;
+    text-transform: capitalize;
+}
+.slider-content button:hover{
+    background-color: transparent;
+    color: rgb(34, 34, 34);
+
+}
+
+/*end slider*/
+
+/* seller*/
+.linee{
+    height: 1px;
+    width: 7%;
+    background-color: #384AEB;
+    padding-top: 1px;
+    position: absolute;
+    top: 95px;
+     bottom: 0;
+    left: 75px;
+    
+}
+.products.mg-yy{
+    height: 600px;
+}
+/*end seller*/
+
+/*news*/
+.news{
+    width: 100%;
+    height: 600px;
+
+}
+.news .line{
+    height: 1px;
+    width: 6%;
+    background-color: #384AEB;
+    padding-top: 1px;
+    position: absolute;
+    top: 95px;
+     bottom: 0;
+    left: 92px;
+
+}
+.news h1{
+    text-transform: capitalize;
+    font-family: "Oswald",sans-serif;
+    font-weight: 600px;
+    font-size: 36px;
+}
+.news-content{
+    width: 100%;
+    margin: auto;
+}
+.news-item{
+    width: 25%;
+    float: left;
+
+}
+.news-image{
+    margin-bottom: 20px;
+}
+.news-item img{
+   width: 100%;
+  
+   
+}
+.news-item span{
+       width: 65px;
+    height: 60px;
+    margin-right: 15px;
+    color: #999B9C;
+    text-transform: capitalize;
+ 
+}
+
+.news-item a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.news-item p{
+    color: #999B9C;
+
+}
+.news-item h2{
+    font-size: 20px;
+    font-family: "Oswald",sans-serif;
+}
+.news-item:hover h2,
+.news-item:hover a{
+    color: #384AEE;
+}
+
+/*end news*/
+
+/*contact*/
+.contact{
+    background-color: white;
+    height: 400px;
+    width: 85%;
+    left: 100px;
+    text-align: center;
+    position: relative;
+    top: -160px;
+    border: 1 solid;
+    border-color: white;
+}
+.contact-info{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    bottom: 50;
+    padding: 30px;
+    width: 80%;
+}
+.contact-info h3{
+    color: #777777;
+}
+.contact-info h2{
+    font-family: "Oswald",sans-serif;
+    color: #222;
+    font-size: 35px;
+    font-weight: 500px;
+}
+.contact-info button{
+    padding: 17px;
+    width: 170px;
+    border-radius: 25px;
+    border-width: 1px;
+    color: white;
+    background-color: #384AEB;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.contact-info button:hover{
+    border-color:  #384AEB;
+    border-width: 1px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.contact-info input{
+    width: 350px;
+    border-radius: 100px;
+    padding: 15px;
+    outline: 0;
+    border: 0;
+    border: 1px solid #8b8e8f;
+    text-transform: capitalize;
+
+}
+
+/*end contact*/
+
+/*footer*/
+footer{
+    background-color: #002347;
+    width: 100%; 
+}
+.footer-item{
+    width: 16%;
+    height: 400px;
+    float: left;
+    padding: 15px;
+    position: relative;
+   
+}
+.footer-item h2{
+    text-transform: capitalize;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Oswald",sans-serif;
+}
+.footer-item p{
+    color: #777777;
+    font-size: 18px;
+}
+.footer-item h3{
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-family: "Oswald",sans-serif;
+    padding: 20px;
+    
+}
+.links-menu{
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    left: 35px;
+   
+}
+.footer-item a{
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+    text-transform: capitalize;
+    color: #777777;
+    font-size: 17px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 300;
+}
+.footer-item a:hover {
+    color: #284AE1;
+}
+
+.image-item{
+    width: 35%;
+    float: left;
+    margin: 0 5% 3% 0;
+
+}
+.image-item img{
+    width: 100%;
+    
+}
+.footer-item h4{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: white;
+}
+h4 i{
+    color: white;
+    background-color: #384AEB;
+    border-radius: 50%;
+    
+}
+.footer-item span{
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    color: #777777;
+
+}
+.copy-right{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.blue{
+    color: #384AEB;
+
+}
+
+
+
+/*end footer*/
+
+
